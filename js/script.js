@@ -17,6 +17,15 @@ That’s why it’s better to follow the rule, that after command you should wri
 
 // confirm('Are you 18 years of age or older?');
 
-let isAdult = confirm('Are you 18 years of age or older?');
-console.log(isAdult);
+// let isAdult = confirm('Are you 18 years of age or older?');
+// console.log(isAdult);
 
+
+
+// Naming Rules for Variables 
+
+// Wrong way to declare a variable
+let poet = "Walt Whitman";
+
+// Good way to declare a variable (Camel Case or Camel style)
+let fullNameOfPoet = "Walt Whitman";
