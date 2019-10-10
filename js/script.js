@@ -60,14 +60,20 @@ and SCORE (in all caps) are not the same variables. */
 // console.log(a==="5" || b === "r");
 
 // Task 3
-
-let a = 5;
-let b = "6";
-console.log( !(a >= 5 || b === 6) || !(a === "5" && b == 6) );
-
+// let a = 5;
+// let b = "6";
+// console.log( !(a >= 5 || b === 6) || !(a === "5" && b == 6) );
 
 
+let temp = 40;
 
+if(temp>70) {
+	console.log('Go to the beach!');
+} else if(temp < 32) {
+	console.log('Go ice skating');
+} else {
+	console.log('Stay at home.');
+}
 
 
 
