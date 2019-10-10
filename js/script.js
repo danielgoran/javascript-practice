@@ -124,19 +124,23 @@ and SCORE (in all caps) are not the same variables. */
 let’s display each letter of the word “Hello” on a new line.
 To do this, we create a variable called “word”
 and assign the word “Hello” to it. */
-let word = 'Hello';
-for(let i = 0; i < word.length; i++) {
-	console.log(word[i]);
+// let word = 'Hello';
+// for(let i = 0; i < word.length; i++) {
+// 	console.log(word[i]);
+// }
+
+
+// Task 1 - For loop
+/*task was to write a program 
+with the help of the for loop
+and it has to display a multiplication table 
+for a number entered by the user.
+*/
+// First way to do it
+let number = +prompt('Enter a number:', '');
+for(let i = 1; i <= 10; i++) {
+	console.log(number + ' x ' + i + ' = ' + (number * i));
 }
-
-
-
-
-
-
-
-
-
 
 
 
