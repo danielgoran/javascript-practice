@@ -76,17 +76,74 @@ and SCORE (in all caps) are not the same variables. */
 // 	console.log('Stay at home.');
 // }
 
-let favoriteDrink = "juice";
+//Task conditional statements
+// let favoriteDrink = "juice";
 
-if(favoriteDrink === "coffee") {
-	console.log("I\'ll have coffee");
-} else if(favoriteDrink === "tea") {
-	console.log("I\'ll have tea");
-} else if(favoriteDrink === "hot chocolate"){
-	console.log("I\'ll have hot chocolate");
-} else {
-	console.log("I\'ll have water");
+// if(favoriteDrink === "coffee") {
+// 	console.log("I\'ll have coffee");
+// } else if(favoriteDrink === "tea") {
+// 	console.log("I\'ll have tea");
+// } else if(favoriteDrink === "hot chocolate"){
+// 	console.log("I\'ll have hot chocolate");
+// } else {
+// 	console.log("I\'ll have water");
+// }
+
+
+// Shorthand Operators
+// let a = 10;
+// let b = 5;
+// let c = 2;
+// console.log(a + b + c);
+// a += 5;
+// b--;
+// c /= 2;
+// console.log(a + b + c);
+
+
+// ===== Loop =====
+// increase from 0 to 10
+// for(let i = 0; i < 11; i++) {
+// 	console.log(i);
+// }
+
+
+// Increase from 40 to 60
+// for(let i = 40; i < 61; i++) {
+// 	console.log(i);
+// }
+
+
+// Decrease from 10 to 2
+// for(let i = 10; i > 1; i--) {
+// 	console.log(i);
+// }
+
+
+/* And as the last example, 
+let’s display each letter of the word “Hello” on a new line.
+To do this, we create a variable called “word”
+and assign the word “Hello” to it. */
+let word = 'Hello';
+for(let i = 0; i < word.length; i++) {
+	console.log(word[i]);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
