@@ -137,12 +137,16 @@ and it has to display a multiplication table
 for a number entered by the user.
 */
 // First way to do it
+// let number = +prompt('Enter a number:', '');
+// for(let i = 1; i <= 10; i++) {
+// 	console.log(number + ' x ' + i + ' = ' + (number * i));
+// }
+
+// Second way
 let number = +prompt('Enter a number:', '');
 for(let i = 1; i <= 10; i++) {
-	console.log(number + ' x ' + i + ' = ' + (number * i));
+	console.log(`${number} x ${i} = ${number * i}`);
 }
-
-
 
 
 
