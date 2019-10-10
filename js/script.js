@@ -29,3 +29,12 @@ let poet = "Walt Whitman";
 
 // Good way to declare a variable (Camel Case or Camel style)
 let fullNameOfPoet = "Walt Whitman";
+
+// Variable names can begin with letters, with a dollar sign or even with an underscore.
+
+// On the other hand, in JavaScript you can’t begin the name of a variable with a number or an ampersand sign.
+
+/* Also, JavaScript is case-sensitive, 
+meaning that in the following example: score (with all lowercase letters), 
+and Score (with a capital S) 
+and SCORE (in all caps) are not the same variables. */
