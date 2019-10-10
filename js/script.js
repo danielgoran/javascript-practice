@@ -65,19 +65,28 @@ and SCORE (in all caps) are not the same variables. */
 // console.log( !(a >= 5 || b === 6) || !(a === "5" && b == 6) );
 
 
-let temp = 40;
+// Conditional statements
+// let temp = 40;
 
-if(temp>70) {
-	console.log('Go to the beach!');
-} else if(temp < 32) {
-	console.log('Go ice skating');
+// if(temp>70) {
+// 	console.log('Go to the beach!');
+// } else if(temp < 32) {
+// 	console.log('Go ice skating');
+// } else {
+// 	console.log('Stay at home.');
+// }
+
+let favoriteDrink = "juice";
+
+if(favoriteDrink === "coffee") {
+	console.log("I\'ll have coffee");
+} else if(favoriteDrink === "tea") {
+	console.log("I\'ll have tea");
+} else if(favoriteDrink === "hot chocolate"){
+	console.log("I\'ll have hot chocolate");
 } else {
-	console.log('Stay at home.');
+	console.log("I\'ll have water");
 }
-
-
-
-
 
 
 
