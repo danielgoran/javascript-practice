@@ -13,4 +13,10 @@ And we see that everything works, because JavaScript first will run this command
 alert till semicolon, then this alert command till semicolon and finally this.
 That’s why it’s better to follow the rule, that after command you should write a semicolon. */
 
-alert("Hello, World!"); alert("How are you?"); alert("Have a nice day!");
+// alert("Hello, World!"); alert("How are you?"); alert("Have a nice day!");
+
+// confirm('Are you 18 years of age or older?');
+
+let isAdult = confirm('Are you 18 years of age or older?');
+console.log(isAdult);
+
