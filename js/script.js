@@ -15,7 +15,8 @@ That’s why it’s better to follow the rule, that after command you should wri
 
 // alert("Hello, World!"); alert("How are you?"); alert("Have a nice day!");
 
-confirm('Are you 18 years of age or older?');
+// confirm('Are you 18 years of age or older?');
 
-
+let isAdult = confirm('Are you 18 years of age or older?');
+console.log(isAdult);
 
