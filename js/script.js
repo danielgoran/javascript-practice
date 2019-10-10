@@ -47,14 +47,23 @@ and SCORE (in all caps) are not the same variables. */
 
 
 
-let firstName = prompt('Your first name:', '');
-let lastName = prompt('Your last name:', '');
-let age = prompt('Your age:', '');
+// let firstName = prompt('Your first name:', '');
+// let lastName = prompt('Your last name:', '');
+// let age = prompt('Your age:', '');
 
-console.log('Hello, '+firstName+' '+lastName+'. You are '+age+' years old.');
+// console.log('Hello, '+firstName+' '+lastName+'. You are '+age+' years old.');
 
 
+// Task 2
+// let a = 5;
+// let b = "r";
+// console.log(a==="5" || b === "r");
 
+// Task 3
+
+let a = 5;
+let b = "6";
+console.log( !(a >= 5 || b === 6) || !(a === "5" && b == 6) );
 
 
 
