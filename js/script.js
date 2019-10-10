@@ -25,10 +25,11 @@ That’s why it’s better to follow the rule, that after command you should wri
 // Naming Rules for Variables 
 
 // Wrong way to declare a variable
-let poet = "Walt Whitman";
+// let poet = "Walt Whitman";
 
 // Good way to declare a variable (Camel Case or Camel style)
-let fullNameOfPoet = "Walt Whitman";
+
+// let fullNameOfPoet = "Walt Whitman";
 
 // Variable names can begin with letters, with a dollar sign or even with an underscore.
 
@@ -38,3 +39,43 @@ let fullNameOfPoet = "Walt Whitman";
 meaning that in the following example: score (with all lowercase letters), 
 and Score (with a capital S) 
 and SCORE (in all caps) are not the same variables. */
+
+// Prompt
+
+let name = prompt('Enter your name', 'Anonymous');
+console.log(name);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
