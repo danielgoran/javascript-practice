@@ -55,10 +55,15 @@ and SCORE (in all caps) are not the same variables. */
 
 
 // Task 2
-let a = 5;
-let b = "r";
-console.log(a==="5" || b === "r");
+// let a = 5;
+// let b = "r";
+// console.log(a==="5" || b === "r");
 
+// Task 3
+
+let a = 5;
+let b = "6";
+console.log( !(a >= 5 || b === 6) || !(a === "5" && b == 6) );
 
 
 
