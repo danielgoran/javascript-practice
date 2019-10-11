@@ -175,18 +175,25 @@ for a number entered by the user.
 
 // Task 1 - While Loop
 
-let number = +prompt('Enter a number:', '0');
+// let number = +prompt('Enter a number:', '0');
+// let sum = 0;
+// let i = 1;
+// while(i <= number) {
+// 	sum += i;
+// 	i++;
+// }
+// console.log(sum);
+
+
+// Task 2 - While Loop
+
+let number = +prompt('Enter a number:', '');
 let sum = 0;
-let i = 1;
-while(i <= number) {
-	sum += i;
-	i++;
+while(number !== 0) {
+	sum += number;
+	number = +prompt('Enter a number:', '');
 }
 console.log(sum);
-
-
-
-
 
 
 
