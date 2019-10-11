@@ -150,17 +150,27 @@ for a number entered by the user.
 
 
 // For Loop - Task 2
-let num1 = +prompt('Enter a number 1', '0');
-let num2 = +prompt('Enter a number 2', '0');
-let sum = 0;
+// let num1 = +prompt('Enter a number 1', '0');
+// let num2 = +prompt('Enter a number 2', '0');
+// let sum = 0;
 
-for(let i = num1; i <= num2; i++) {
-	if(i % 2 === 0) {
-		sum += i;
-	}
+// for(let i = num1; i <= num2; i++) {
+// 	if(i % 2 === 0) {
+// 		sum += i;
+// 	}
+// }
+// console.log(sum);
+
+
+
+// ===== While Loop - Practice =====
+let bookPrice = 50;
+let budget = 80;
+while(budget >= bookPrice) {
+	budget -= bookPrice;
+	console.log("I've bought a book");
 }
-console.log(sum);
-
+console.log("Rest: $" + budget);
 
 
 
