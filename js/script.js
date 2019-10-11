@@ -164,18 +164,25 @@ for a number entered by the user.
 
 
 // ===== While Loop - Practice =====
-let bookPrice = 50;
-let budget = 80;
-while(budget >= bookPrice) {
-	budget -= bookPrice;
-	console.log("I've bought a book");
+// let bookPrice = 50;
+// let budget = 80;
+// while(budget >= bookPrice) {
+// 	budget -= bookPrice;
+// 	console.log("I've bought a book");
+// }
+// console.log("Rest: $" + budget);
+
+
+// Task 1 - While Loop
+
+let number = +prompt('Enter a number:', '0');
+let sum = 0;
+let i = 1;
+while(i <= number) {
+	sum += i;
+	i++;
 }
-console.log("Rest: $" + budget);
-
-
-
-
-
+console.log(sum);
 
 
 
