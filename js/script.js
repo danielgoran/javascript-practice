@@ -186,14 +186,49 @@ for a number entered by the user.
 
 
 // Task 2 - While Loop
+// let number = +prompt('Enter a number:', '');
+// let sum = 0;
+// while(number !== 0) {
+// 	sum += number;
+// 	number = +prompt('Enter a number:', '');
+// }
+// console.log(sum);
 
-let number = +prompt('Enter a number:', '');
-let sum = 0;
-while(number !== 0) {
-	sum += number;
-	number = +prompt('Enter a number:', '');
+
+// Exercise - Functions- Javascript
+// function toCamelCase (str) {
+// 	let words = str.split(' ');
+// 	console.log(words);
+// }
+
+// let str = 'To be or not to be';
+// toCamelCase(str);
+
+function toCamelCase (str) {
+	let words = str.split(' ');
+	for(let i = 0; i < words.length; i++) {
+		words[i] = words [i][0].toUpperCase() + words[i].substring(1, words[i].length);
+	}
+	words[0] = words[0][0].toLowerCase() + words[0].substring(1, words[0].length);
+	let result = words.join('');
+	return result;
 }
-console.log(sum);
+
+let str = prompt('Enter a sentence', '');
+let str2 = toCamelCase(str);
+
+console.log(str2);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
