@@ -214,7 +214,7 @@ function toCamelCase (str) {
 	return result;
 }
 
-let str = 'To be or not to be';
+let str = prompt('Enter a sentence', '');
 let str2 = toCamelCase(str);
 
 console.log(str2);
