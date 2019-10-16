@@ -204,20 +204,76 @@ for a number entered by the user.
 // let str = 'To be or not to be';
 // toCamelCase(str);
 
-function toCamelCase (str) {
-	let words = str.split(' ');
-	for(let i = 0; i < words.length; i++) {
-		words[i] = words [i][0].toUpperCase() + words[i].substring(1, words[i].length);
-	}
-	words[0] = words[0][0].toLowerCase() + words[0].substring(1, words[0].length);
-	let result = words.join('');
-	return result;
-}
+// function toCamelCase (str) {
+// 	let words = str.split(' ');
+// 	for(let i = 0; i < words.length; i++) {
+// 		words[i] = words [i][0].toUpperCase() + words[i].substring(1, words[i].length);
+// 	}
+// 	words[0] = words[0][0].toLowerCase() + words[0].substring(1, words[0].length);
+// 	let result = words.join('');
+// 	return result;
+// }
 
-let str = prompt('Enter a sentence', '');
-let str2 = toCamelCase(str);
+// let str = prompt('Enter a sentence', '');
+// let str2 = toCamelCase(str);
 
-console.log(str2);
+// console.log(str2);
+
+
+
+// Arrays methods - Javascript
+
+let num = [1, -4, 6, 3.14];
+console.log(num.length);
+num.pop();
+console.log(num);
+num.push(47);
+console.log(num);
+num.shift();
+console.log(num);
+num.unshift(0);
+console.log(num);
+
+num.splice(2, 1);
+console.log(num);
+
+console.log(num.indexOf(-4));
+num.push(100);
+
+let num2 = num.slice();
+console.log(num2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
