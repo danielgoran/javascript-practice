@@ -196,16 +196,28 @@ for a number entered by the user.
 
 
 // Exercise - Functions- Javascript
+// function toCamelCase (str) {
+// 	let words = str.split(' ');
+// 	console.log(words);
+// }
+
+// let str = 'To be or not to be';
+// toCamelCase(str);
+
 function toCamelCase (str) {
 	let words = str.split(' ');
-	console.log(words);
+	for(let i = 0; i < words.length; i++) {
+		words[i] = words [i][0].toUpperCase() + words[i].substring(1, words[i].length);
+	}
+	words[0] = words[0][0].toLowerCase() + words[0].substring(1, words[0].length);
+	let result = words.join('');
+	return result;
 }
 
 let str = 'To be or not to be';
-toCamelCase(str);
+let str2 = toCamelCase(str);
 
-
-
+console.log(str2);
 
 
 
