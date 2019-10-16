@@ -223,33 +223,45 @@ for a number entered by the user.
 
 // Arrays methods - Javascript
 
-let num = [1, -4, 6, 3.14];
-console.log(num.length);
-num.pop();
-console.log(num);
-num.push(47);
-console.log(num);
-num.shift();
-console.log(num);
-num.unshift(0);
-console.log(num);
+// let num = [1, -4, 6, 3.14];
+// console.log(num.length);
+// num.pop();
+// console.log(num);
+// num.push(47);
+// console.log(num);
+// num.shift();
+// console.log(num);
+// num.unshift(0);
+// console.log(num);
 
-num.splice(2, 1);
-console.log(num);
+// num.splice(2, 1);
+// console.log(num);
 
-console.log(num.indexOf(-4));
-num.push(100);
+// console.log(num.indexOf(-4));
+// num.push(100);
 
-let num2 = num.slice();
-console.log(num2);
-
-
+// let num2 = num.slice();
+// console.log(num2);
 
 
 
+// Array Iteration - Javascript
+let nums = [1, 2, 3, 4];
 
+// let sum = nums[0] + nums[1] + nums[2] + nums[3];
+// console.log(sum);
 
+// let sum = 0;
+// for(let i = 0; i < nums.length; i++) {
+// 	sum += nums[i];
+// }
+// console.log(sum);
 
+let sum = 0;
+nums.forEach(function(e, i, a) {
+	sum += e;
+})
+console.log(sum);
 
 
 
