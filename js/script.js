@@ -366,9 +366,39 @@ how many times the enter name appears in the array.*/
 // console.dir(id);
 
 
-// 4. querySelector()
-let query = document.querySelector(".red-text");
-console.dir(query);
+// 5. querySelector()
+// let query = document.querySelector('p:nth-of-type(2)');
+// console.dir(query);
+
+
+// 6. querySelectorAll()
+let queryAll = document.querySelectorAll(".red-text");
+console.dir(queryAll);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
