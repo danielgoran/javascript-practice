@@ -287,6 +287,27 @@ for a number entered by the user.
 // console.log('Zeros: ' + zeros);
 
 
+// Array task 1 - Javascript
+// Create a program to find the minimum and maximum numbers of the array.
+// let array = [-2, 16, 41, 21, 0, 6, -4];
+// let minValue = array[0];
+// let maxValue = array[0];
+// let minIndex = 0;
+// let maxIndex = 0;
+
+// for(let i = 1; i < array.length; i++) {
+// 	if(array[i] < minValue) {
+// 		minValue = array[i];
+// 		minIndex = i;
+// 	} else if(array[i] > maxValue) {
+// 		maxValue = array[i];
+// 		maxIndex = i;
+// 	}
+// }
+
+// console.log('Min: ' + minValue + '; index: ' + minIndex);
+// console.log('Max: ' + maxValue + '; index: ' + maxIndex);
+
 
 // Array task 2 - Javascript
 // Create a program to finds the minimum and the maximum number of the array.
@@ -374,10 +395,6 @@ how many times the enter name appears in the array.*/
 // 6. querySelectorAll()
 let queryAll = document.querySelectorAll(".red-text");
 console.dir(queryAll);
-
-
-
-
 
 
 
