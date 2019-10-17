@@ -317,26 +317,38 @@ for a number entered by the user.
 and a user enters a name 
 and the program calculates 
 how many times the enter name appears in the array.*/
-let array = ['John', 'Jacob', 'Daniel', 'Linda', 'Nancy', 'John'];
+// let array = ['John', 'Jacob', 'Daniel', 'Linda', 'Nancy', 'John'];
 
-let name = prompt('Enter a name', 'John');
-let counter = 0;
+// let name = prompt('Enter a name', 'John');
+// let counter = 0;
 
-for(let i = 0; i < array.length; i++) {
-	if(array[i] === name) {
-		counter++;
-	}
-}
+// for(let i = 0; i < array.length; i++) {
+// 	if(array[i] === name) {
+// 		counter++;
+// 	}
+// }
 
-if(counter === 1) {
-	console.log('Name ' + name + '; ' + counter + ' time');
-} else{
-console.log('Name ' + name + '; ' + counter + ' times');
-}
-
-
+// if(counter === 1) {
+// 	console.log('Name ' + name + '; ' + counter + ' time');
+// } else{
+// console.log('Name ' + name + '; ' + counter + ' times');
+// }
 
 
+
+
+
+
+
+
+
+
+
+// JavaScript Selectors
+// 1. getElementsByName()
+
+let name = document.getElementsByName('wish');
+console.dir(name);
 
 
 
