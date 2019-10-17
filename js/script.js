@@ -351,15 +351,19 @@ how many times the enter name appears in the array.*/
 // console.dir(name);
 
 
-//2. getElementsByTagName()
+// 2. getElementsByTagName()
 // let tag = document.getElementsByTagName("p");
 // console.dir(tag);
 
 
-//3. getElementsByClassName()
-let className = document.getElementsByClassName("red-text");
-console.dir(className);
+// 3. getElementsByClassName()
+// let className = document.getElementsByClassName("red-text");
+// console.dir(className);
 
+
+// 4. getElementById()
+let id = document.getElementById("main");
+console.dir(id);
 
 
 
