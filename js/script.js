@@ -246,7 +246,7 @@ for a number entered by the user.
 
 
 // Array Iteration - Javascript
-let nums = [1, 2, 3, 4];
+// let nums = [1, 2, 3, 4];
 
 // let sum = nums[0] + nums[1] + nums[2] + nums[3];
 // console.log(sum);
@@ -257,15 +257,33 @@ let nums = [1, 2, 3, 4];
 // }
 // console.log(sum);
 
-let sum = 0;
-nums.forEach(function(e, i, a) {
-	sum += e;
-})
-console.log(sum);
+// let sum = 0;
+// nums.forEach(function(e, i, a) {
+// 	sum += e;
+// })
+// console.log(sum);
 
 
 
+// Array tasks - Javascript
+let array = [11, 9, 8, 7, 6, 0, 0, 3];
+let evenNumbers = 0;
+let oddNumbers = 0;
+let zeros = 0;
 
+for(let i = 0; i < array.length; i++) {
+	if(array[i] === 0) {
+		zeros++;
+	} else if(array[i] % 2 === 0) {
+		evenNumbers++;
+	} else {
+		oddNumbers++;
+	}
+}
+
+console.log('Even: ' + evenNumbers);
+console.log('Odd: ' + oddNumbers);
+console.log('Zeros: ' + zeros);
 
 
 
