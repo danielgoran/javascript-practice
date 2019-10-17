@@ -287,27 +287,114 @@ for a number entered by the user.
 // console.log('Zeros: ' + zeros);
 
 
-
 // Array task 1 - Javascript
 // Create a program to find the minimum and maximum numbers of the array.
-let array = [-2, 16, 41, 21, 0, 6, -4];
-let minValue = array[0];
-let maxValue = array[0];
-let minIndex = 0;
-let maxIndex = 0;
+// let array = [-2, 16, 41, 21, 0, 6, -4];
+// let minValue = array[0];
+// let maxValue = array[0];
+// let minIndex = 0;
+// let maxIndex = 0;
 
-for(let i = 1; i < array.length; i++) {
-	if(array[i] < minValue) {
-		minValue = array[i];
-		minIndex = i;
-	} else if(array[i] > maxValue) {
-		maxValue = array[i];
-		maxIndex = i;
-	}
-}
+// for(let i = 1; i < array.length; i++) {
+// 	if(array[i] < minValue) {
+// 		minValue = array[i];
+// 		minIndex = i;
+// 	} else if(array[i] > maxValue) {
+// 		maxValue = array[i];
+// 		maxIndex = i;
+// 	}
+// }
 
-console.log('Min: ' + minValue + '; index: ' + minIndex);
-console.log('Max: ' + maxValue + '; index: ' + maxIndex);
+// console.log('Min: ' + minValue + '; index: ' + minIndex);
+// console.log('Max: ' + maxValue + '; index: ' + maxIndex);
+
+
+// Array task 2 - Javascript
+// Create a program to finds the minimum and the maximum number of the array.
+// let array = [-2, 16, 41, 21, 0, 6, -4];
+// let minValue = array[0];
+// let maxValue = array[0];
+// let minIndex = 0;
+// let maxIndex = 0;
+
+// for(let i = 1; i < array.length; i++) {
+// 	if(array[i] < minValue) {
+// 		minValue = array[i];
+// 		minIndex = i;
+// 	} else if(array[i] > maxValue) {
+// 		maxValue = array[i];
+// 		maxIndex = i;
+// 	}
+// }
+
+// console.log('Min: ' + minValue + '; index: ' + minIndex);
+// console.log('Max: ' + maxValue + '; index: ' + maxIndex);
+
+
+
+
+// Array task 3 - Javascript
+/* We have an array of names 
+and a user enters a name 
+and the program calculates 
+how many times the enter name appears in the array.*/
+// let array = ['John', 'Jacob', 'Daniel', 'Linda', 'Nancy', 'John'];
+
+// let name = prompt('Enter a name', 'John');
+// let counter = 0;
+
+// for(let i = 0; i < array.length; i++) {
+// 	if(array[i] === name) {
+// 		counter++;
+// 	}
+// }
+
+// if(counter === 1) {
+// 	console.log('Name ' + name + '; ' + counter + ' time');
+// } else{
+// console.log('Name ' + name + '; ' + counter + ' times');
+// }
+
+
+
+
+
+
+
+
+
+
+
+// JavaScript Selectors
+
+// 1. getElementsByName()
+// let name = document.getElementsByName('wish');
+// console.dir(name);
+
+
+// 2. getElementsByTagName()
+// let tag = document.getElementsByTagName("p");
+// console.dir(tag);
+
+
+// 3. getElementsByClassName()
+// let className = document.getElementsByClassName("red-text");
+// console.dir(className);
+
+
+// 4. getElementById()
+// let id = document.getElementById("main");
+// console.dir(id);
+
+
+// 5. querySelector()
+// let query = document.querySelector('p:nth-of-type(2)');
+// console.dir(query);
+
+
+// 6. querySelectorAll()
+let queryAll = document.querySelectorAll(".red-text");
+console.dir(queryAll);
 
 
 
