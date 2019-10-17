@@ -289,7 +289,7 @@ for a number entered by the user.
 
 
 // Array task 1 - Javascript
-
+// Create a program to find the minimum and maximum numbers of the array.
 let array = [-2, 16, 41, 21, 0, 6, -4];
 let minValue = array[0];
 let maxValue = array[0];
