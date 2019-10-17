@@ -346,11 +346,13 @@ how many times the enter name appears in the array.*/
 
 // JavaScript Selectors
 // 1. getElementsByName()
+// let name = document.getElementsByName('wish');
+// console.dir(name);
 
-let name = document.getElementsByName('wish');
-console.dir(name);
 
-
+//2. getElementsByTagName
+let tag = document.getElementsByTagName("p");
+console.dir(tag);
 
 
 
