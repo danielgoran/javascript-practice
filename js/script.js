@@ -362,11 +362,13 @@ how many times the enter name appears in the array.*/
 
 
 // 4. getElementById()
-let id = document.getElementById("main");
-console.dir(id);
+// let id = document.getElementById("main");
+// console.dir(id);
 
 
-
+// 4. querySelector()
+let query = document.querySelector(".red-text");
+console.dir(query);
 
 
 
