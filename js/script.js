@@ -377,9 +377,11 @@ how many times the enter name appears in the array.*/
 
 
 // Task - Create a program to generate a random number
-let randomNumber = Math.floor(Math.random() * 11 + 5);
-console.log(randomNumber);
+// let randomNumber = Math.floor(Math.random() * 11 + 5);
+// console.log(randomNumber);
 
+let randomNumber = Math.floor(Math.random() * 70 - 30);
+console.log(randomNumber);
 
 
 
