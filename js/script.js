@@ -393,12 +393,19 @@ how many times the enter name appears in the array.*/
 
 
 // 6. querySelectorAll()
-let queryAll = document.querySelectorAll(".red-text");
-console.dir(queryAll);
+// let queryAll = document.querySelectorAll(".red-text");
+// console.dir(queryAll);
 
 
+// Task - Create a program to generate a random number
+// let randomNumber = Math.floor(Math.random() * 11 + 5);
+// console.log(randomNumber);
 
+// let randomNumber = Math.floor(Math.random() * 70 - 30);
+// console.log(randomNumber);
 
+let randomNumber = Math.floor(Math.random() * 50 - 1);
+console.log(randomNumber);
 
 
 
